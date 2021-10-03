@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Platform, StatusBar, SafeAreaView } from 'react
 import { backgroundColor } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
 import HeaderTabs from '../components/HeaderTabs'
 import SearchBar from '../components/SearchBar';
-
+import Category from '../components/Category';
 export default function Home() {
   return (
   <SafeAreaView style={styles.AndroidSafeArea} >
@@ -11,6 +11,7 @@ export default function Home() {
     <HeaderTabs/>
     <SearchBar/>
     </View>
+    <Category/>
   </SafeAreaView>
   )
 }
